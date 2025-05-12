@@ -1,0 +1,30 @@
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .meubles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .meuble-item {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .meuble-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .meuble-image {
+      max-width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .meuble-details {
+      margin-top: 10px;
+    }
+
