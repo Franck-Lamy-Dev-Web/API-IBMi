@@ -1,8 +1,8 @@
 <?php
 // Paramètres de connexion à la base de données
 $database = "*LOCAL"; 
-$user = "CCHASSANG";  
-$password = "ASUS25";
+$user = "USER";  //User
+$password = "Mot de passe"; //Votre mot de passe
 $options = array();
 
 // Fonction pour établir une connexion à la base de données
